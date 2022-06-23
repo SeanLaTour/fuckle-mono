@@ -1,0 +1,30 @@
+{
+  "homepage": "https://fuckle-www",
+  "name": "fuckle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "fuckle",
+  "author": "Sean La Tourette",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "format": "npx prettier --write ."
+  },
+  "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^3.0.1",
+    "@chakra-ui/provider": "^2.0.6",
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.3.11",
+    "gatsby": "^4.16.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
